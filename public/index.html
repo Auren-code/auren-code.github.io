@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>D&D Sidekicks</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <div class="header-top">
+          <h1>D&D Sidekicks</h1>
+          <div class="controls">
+            <button id="pdfBtn">📄 Rules (PDF)</button>
+            <button id="newChar">New Character</button>
+          </div>
+        </div>
+      </header>
+      <main>
+        <aside id="list"></aside>
+        <section id="editor"></section>
+      </main>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/app.js"></script>
+  </body>
+</html>
